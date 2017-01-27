@@ -75,7 +75,7 @@ Once it has finished installing the various docker components - you will see thi
 
 You can now join any number of machines by running the following on each node:
 
-kubeadm join --token=<token> 10.0.2.15
+kubeadm join --token=<token> 172.16.255.251
 ```
 
 To confirm the k8s api server is up and running:
