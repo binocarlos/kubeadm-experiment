@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
     node1.vm.provision "shell", inline: <<SCRIPT
 echo "installing node1"
-bash /vagrant/scripts/install.sh bootstrap
+bash /vagrant/install.sh bootstrap
 SCRIPT
   end
 
@@ -26,7 +26,7 @@ SCRIPT
     end
     node2.vm.provision "shell", inline: <<SCRIPT
 echo "installing node2"
-bash /vagrant/scripts/install.sh bootstrap
+bash /vagrant/install.sh bootstrap
 SCRIPT
   end
   
