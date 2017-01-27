@@ -26,7 +26,7 @@ $ vagrant up
 You will see this message after the first startup:
 
 ```bash
-GRUB updated - restart both VMS with --provision to continue
+GRUB updated - restart both VMS
 ```
 So we need to:
 
