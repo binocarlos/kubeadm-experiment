@@ -76,12 +76,9 @@ EOF
 
 # install everything for one node
 function bootstrap() {
-  hostnames
-  sshkeys
   basedeps
   docker
   k8s
-  grub
 }
 
 function reset() {
