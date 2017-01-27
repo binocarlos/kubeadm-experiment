@@ -123,7 +123,7 @@ Now lets setup node2:
 $ exit
 $ vagrant ssh node2
 $ cd /vagrant
-$ sudo kubeadm join --token=<token> 10.0.2.15
+$ sudo kubeadm join --token=<token> 172.16.255.251
 ```
 
 NOTE - <token> is printed in the output of `kubeadm init` from node1
